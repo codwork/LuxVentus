@@ -70,3 +70,51 @@ header {
     transform: scale(1.1);
 }
 /* <!-- header დასასრული --> */
+/* first-section დასაწყისი */
+.first-section {
+    padding: 0 84px;
+    margin-bottom: 73px;
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 218px 0 150px 53px;
+    background-image: url(./assets/first\ section\ background.png);
+}
+.background h3 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 23%;
+    color: #FFFFFF;
+}
+.background h1 {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 69px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.background span {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 69px;
+    letter-spacing: 0%;
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.background p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 490px;
+    color: #FFFFFF;
+}
+/* first-section დასასრული */
