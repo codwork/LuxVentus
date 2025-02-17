@@ -190,3 +190,105 @@ header {
     padding: 0 84px;
 }
 /* topics section დასასრული */
+/* <!-- last  დასაწყისი    --> */
+.last-section {
+    margin-bottom: 69px;
+    padding: 0 118px;
+}
+.last-section-card {
+    display: flex;
+    gap:46px;
+    box-shadow: 0px 6px 6px 0px #000;
+    border-radius: 20px;
+    background-color: white;
+}
+.last-section-card-image {
+    padding: 25px 384px 337px 34px;
+    border-radius: 20px;
+
+}
+.last-section-card-image a{ 
+    background-color: #262626;
+    color:white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 9px 51px;
+    border-radius: 40px;
+}
+.last-section-card-texts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 31px;
+    gap:32px;
+}
+.last-section-card-text1 {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.paragraph {
+    display: flex;
+    gap:150px;
+}
+.paragraph p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #BCBCBC;
+}
+.last-section-card-text2 {
+    display: flex;
+    flex-direction: column;
+    gap:33px;
+}
+.last-section-card-text2 h1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0%;
+    max-width: 500px;
+}
+.last-section-card-text2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    max-width: 450px;
+}
+.last-section-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.last-section-card-arrow a{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4CE0D7;
+}
+.last-section-card1{
+    background: url(./assets/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.last-section-card2{
+    background: url(./assets/card2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.last-section-card3{
+    background: url(./assets/card3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* <!-- last  დასასრული    --> */
