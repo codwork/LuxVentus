@@ -1,0 +1,67 @@
+/* 1150px Tablet */
+@media (max-width: 1150px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .topics-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog-card, .trending-container {
+        flex-direction: column;
+    }
+
+    .blog-image img, .blog-image2 img {
+        width: 100%;
+    }
+}
+
+/* 900px Smartphone */
+@media (max-width: 900px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .header.container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topics-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-card, .trending-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-image img, .blog-image2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
