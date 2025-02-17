@@ -293,6 +293,127 @@ header {
     text-decoration: underline;
 }
 /* fashion card დასასრული */
+/* <!-- trending section დასაწყისი --> */
+.trending-section {
+    max-width: 1204px;
+    width: 100%;
+}
+
+.trending-title {
+    margin-left: 126px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 85px;
+}
+
+
+
+.trending-container {
+    margin-left: 118px;
+    margin-right: 118px;
+    max-width: 1272px;
+    display: flex;
+    gap: 60px;
+}
+
+.blog-card2 {
+    width:579px;
+    height: 670px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.blog-image2 {
+    position: relative;
+    width: 100%;
+}
+
+.blog-image2 img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+.category2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 9px 50px;
+    border-radius: 20px;
+}
+
+.blog-content2 {
+    padding: 24px;
+}
+
+.blog-meta2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.author2 {
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 82px;
+    gap: 25px;
+}
+.author2 span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #BCBCBC;
+
+}
+.author2 img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.blog-title2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+.blog-description2 {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.read-more2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4CE0D7;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s;
+}
+
+.read-more2:hover {
+    text-decoration: underline;
+}
+/* <!-- trending section დასასრული --> */
 /* <!-- last  დასაწყისი    --> */
 .last-section {
     margin-bottom: 69px;
