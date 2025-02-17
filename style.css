@@ -523,3 +523,50 @@ header {
     object-fit: cover;
 }
 /* <!-- last  დასასრული    --> */
+/* <!-- footer დასაწყისი --> */
+footer {
+    border-radius: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background: #FFFFFF;
+    padding: 40px 84px;
+    
+}
+
+footer p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    padding: 0 84px;
+}
+.footer-right h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+.zip {
+    margin-bottom: 52px;
+    padding: 0 84px;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+ 
+/* <!-- footer დასასრული --> */
