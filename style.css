@@ -291,4 +291,10 @@ header {
     background-size: cover;
     background-position: center;
 }
+.last-section-card-text1 img {
+    width: 65px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 /* <!-- last  დასასრული    --> */
